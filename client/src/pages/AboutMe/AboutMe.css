@@ -1,0 +1,10 @@
+.brandonImage {
+    max-width: 50%;
+    float: left;
+    margin: 5px 20px 0 0;
+}
+
+.aboutMeSummary {
+    font-size: 18px;
+    text-align: left;
+}
