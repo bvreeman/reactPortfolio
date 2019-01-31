@@ -1,7 +1,11 @@
 {
   "name": "reactportfolio",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "private": true,
+  "description": "Brandon Vreeman's React Portfolio showing projects he has worked on",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
