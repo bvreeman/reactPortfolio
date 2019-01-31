@@ -10,13 +10,13 @@ class AboutMe extends React.PureComponent {
     render () {
         return (
             <div className='AboutMePage'>
-                <div className="container">
             <div className="row">
                 <div className="col-md-8 col-xs-12">
-                    <div className="panel panel-default"> 
-                        <div className="panel-body">
-                            <h1>About Me</h1>
-                            <hr/>
+                    <div className="panel panel-default">
+                        <div className="panel-heading">
+                            <div className="panel-title"><h1>About Me</h1></div>
+                        </div>
+                        <div className="panel-body portfolioPanel">
                             <br />
                             <div className="row">
                                 <div className="col-md-12 col-xs-12">
@@ -67,7 +67,7 @@ class AboutMe extends React.PureComponent {
                 </div>           
                 <div className="col-md-4 col-xs-12">
                     <div className="row">
-                        <div className="panel panel-default">
+                        <div className="panel panel-default portfolioPanel">
                             <div className="panel-heading">
                                 <h3 className="panel-title">Connect with Me</h3>
                             </div>
@@ -93,7 +93,7 @@ class AboutMe extends React.PureComponent {
                         </div>
                     </div>
                     <div className="row center-block">
-                        <a href="/" className="linkButton">Click to view My Projects</a>
+                        <a href="/MyProjects" className="linkButton">Click to view My Projects</a>
                     </div>
                     {/* <div className="row center-block">
                         <a href="contact.html" className="linkButton">Click to Contact Me</a>
@@ -101,7 +101,6 @@ class AboutMe extends React.PureComponent {
                 </div>
             </div>
         </div>
-            </div>
         )
     }
 }

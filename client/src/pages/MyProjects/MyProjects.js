@@ -29,7 +29,7 @@ class MyProjects extends React.PureComponent {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 col-xs-12">
-                            <div className="panel panel-default"> 
+                            <div className="panel panel-default portfolioPanel"> 
                                 <div className="panel-heading">
                                     <h1 className="panel-title">Portfolio</h1>
                                 </div>
@@ -183,7 +183,7 @@ class MyProjects extends React.PureComponent {
                         </div>            
                         <div className="col-md-4 col-xs-12">
                             <div className="row">
-                                <div className="panel panel-default">
+                                <div className="panel panel-default portfolioPanel">
                                     <div className="panel-heading">
                                         <h3 className="panel-title">Connect with Me</h3>
                                     </div>
@@ -209,13 +209,13 @@ class MyProjects extends React.PureComponent {
                                 </div>
                             </div>
                             <div className="row center-block">
-                                <a href="index.html" className="linkButton">Click to Read About Me</a>
+                                <a href="/" className="linkButton">Click to Read About Me</a>
                             </div>
                             {/* <div className="row center-block">
                                 <a href="contact.html" className="linkButton">Click to Contact Me</a>
                             </div> */}
                             <div className="row">
-                                <div className="panel panel-default">
+                                <div className="panel panel-default portfolioPanel">
                                         <div className="panel-heading">
                                             <h3 className="panel-title">Client Websites</h3>
                                         </div>

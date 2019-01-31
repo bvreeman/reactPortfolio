@@ -14,11 +14,13 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <HeaderNav />
-          <Switch>
-            <Route exact path='/' component={MyProjects}/>
-            <Route exact path='/AboutMe' component={AboutMe}/>
-            <Route exact path='/ContactUsPage' component={ContactUsPage}/>
-          </Switch>
+          <div className='background'>
+            <Switch>
+              <Route exact path='/' component={AboutMe}/>
+              <Route exact path='/MyProjects' component={MyProjects}/>
+              <Route exact path='/ContactUsPage' component={ContactUsPage}/>
+            </Switch>
+          </div>
         </div>
       </BrowserRouter>
     );
