@@ -22,5 +22,9 @@
     "express": "^4.16.4",
     "nodemailer": "^5.1.1",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.9"
   }
 }
