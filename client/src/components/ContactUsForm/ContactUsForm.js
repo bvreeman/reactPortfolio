@@ -1,14 +1,7 @@
 import React from 'react';
 import './ContactUsForm.css';
 import ContactFormSubmit from '../../components/ContactFormSubmit';
-// import ReCAPTCHAComponent from '../../components/ReCAPTCHAComponent';
 import axios from 'axios';
-import firebase from 'firebase/app';
-import "firebase/database";
-
-// import phone from '../../images/phone.png'
-// import { networkInterfaces } from 'os';
-
 
 class ContactForQuote extends React.PureComponent {
     constructor(props) {
@@ -18,7 +11,6 @@ class ContactForQuote extends React.PureComponent {
             PhoneNumber: '',
             Email: '',
             CustomerMessage: '',
-            // reCAPTCHAvalue: false,
             submitted: false
         }
         this.handleChange = this.handleChange.bind(this);
@@ -34,12 +26,6 @@ class ContactForQuote extends React.PureComponent {
         console.log('before', this.state.reCAPTCHAvalue)
         this.setState( this.state.reCAPTCHAvalue === true )
         console.log('after', this.state.reCAPTCHAvalue)
-    }
-
-    databasePush = () => {
-        let str = this.state.FullName.replace(/\s/g, '')
-        let itemsRef = firebase.database().ref(`${str}ContactForm/`)
-        itemsRef.push(this.state);
     }
 
     handleSubmit = (e) => {
@@ -67,7 +53,6 @@ class ContactForQuote extends React.PureComponent {
                }
             ).then(() => {
                 this.setState({submitted: true });
-                this.databasePush();
             })
         } else {
             alert('Please fill out the remaining required fields')
