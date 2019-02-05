@@ -3,14 +3,13 @@
     width: 100%;
 }
 
-.navbarCenter {
-    text-align: center;
-    line-height: 50px;
-}
-
-.navbarRight {
-    float: right;
-    /* margin-right: 20px; */
+.navbar{
+    padding: 0px;
+    background-color: #0066cc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar-header{
@@ -20,6 +19,18 @@
     padding-top: 10px;
     width: 100%;
     z-index: 1;
+}
+
+.navbarCenter {
+    text-align: center;
+    line-height: 50px;
+}
+
+.navbarRight {
+    float: right;
+    color: white;
+    margin-right: 40px;
+    margin-top: 5px;
 }
 
 .navbarTitle {
@@ -48,12 +59,6 @@
     margin-right: auto;
     background-color: white;
 } */
-  
-.navbar{
-    margin-bottom: 0px;
-    padding: 0px;
-    width: 100%;
-}
 
 @media only screen and (max-width: 991px) {
     .navbarRight {
