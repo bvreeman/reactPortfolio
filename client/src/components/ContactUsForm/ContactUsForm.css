@@ -2,10 +2,15 @@
     color: #0066cc;
 }
 
+.contactUsPage {
+    min-height: 90vh;
+}
+
 .contactForm {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
 
 .contactForQuoteHeading {
@@ -16,7 +21,6 @@
 }
 
 .contactUsForm {
-    width: 90%;
     /* margin-right: 30px; */
     background-color: #0066cc;
     border-style: solid;

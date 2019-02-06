@@ -1,7 +1,6 @@
-.brandonImage {
-    max-width: 50%;
-    float: left;
-    margin: 5px 20px 0 0;
+.panel-default>.panel-heading {
+	background-color: #0066cc;
+	color: white;
 }
 
 .aboutMeSummary {
@@ -10,7 +9,7 @@
 }
 
 .portfolioPanel {
-    color: c3c3c3;
+    color: #030303;
 }
 
 .AboutMePage {

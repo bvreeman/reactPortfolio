@@ -67,8 +67,8 @@ class ContactForQuote extends React.PureComponent {
             return(
                 <div className='contactForQuote'>
                     <h3 className='contactForQuoteHeading'><span>Contact Us</span> for a Quote</h3>
-                        <form id="contact-form" className='contactForm col-md-5 col-xs-12' onSubmit={this.handleSubmit.bind(this)} method="POST">
-                            <div className='col-md-12 col-xs-12 contactUsForm'>
+                        <form id="contact-form" className='contactForm' onSubmit={this.handleSubmit.bind(this)} method="POST">
+                            <div className='contactUsForm'>
                                 <div className="form-group">
                                     <input required type="text" onChange={this.handleChange} className="form-control" value={this.state.FullName} name="FullName" id="FullName" placeholder="Full Name (required)" />
                                 </div>
