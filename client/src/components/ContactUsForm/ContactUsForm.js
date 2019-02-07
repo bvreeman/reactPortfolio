@@ -21,13 +21,6 @@ class ContactForQuote extends React.PureComponent {
         this.setState({ [e.target.name]: e.target.value });
     }
 
-    handleReCAPTCHAchange = (response) =>{
-        console.log('is there a response', response)
-        console.log('before', this.state.reCAPTCHAvalue)
-        this.setState( this.state.reCAPTCHAvalue === true )
-        console.log('after', this.state.reCAPTCHAvalue)
-    }
-
     handleSubmit = (e) => {
         e.preventDefault()
         const FullName = document.getElementById('FullName').value;

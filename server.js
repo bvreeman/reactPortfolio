@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const compression = require('compression');
 const contactRoutes = require("./routes/contactForm");
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -11,6 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+app.use(compression());
 // app.use(methodOverride('_method'));
 
 // Serve up static assets (usually on heroku)
