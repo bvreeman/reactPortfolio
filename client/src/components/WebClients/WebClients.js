@@ -31,11 +31,11 @@ const WebClients = () => {
                         </div>
                     </div>
                     <div className="col-md-6 col-xs-12 imageBox">
-                        <a href="http://www.hannayelectric.com" target="_blank" rel="noopener noreferrer">
-                            <img className="img-responsive text-center" src={hannay} alt="Hannay Electric Website" />
+                        <a href="https://www.brandonvreeman.com" target="_blank" rel="noopener noreferrer">
+                            <img className="img-responsive text-center" src={bookImage} alt="Brandon Vreeman Website" />
                         </a>
                         <div className="caption">
-                            <p>Hannay Electric Website</p>
+                            <p>Brandon Vreeman Author Website</p>
                         </div>
                     </div>
                 </div>
@@ -49,11 +49,11 @@ const WebClients = () => {
                         </div>
                     </div>
                     <div className="col-md-6 col-xs-12 imageBox">
-                        <a href="https://www.brandonvreeman.com" target="_blank" rel="noopener noreferrer">
-                            <img className="img-responsive text-center" src={bookImage} alt="Brandon Vreeman Website" />
+                        <a href="http://www.hannayelectric.com" target="_blank" rel="noopener noreferrer">
+                            <img className="img-responsive text-center" src={hannay} alt="Hannay Electric Website" />
                         </a>
                         <div className="caption">
-                            <p>Brandon Vreeman Author Website</p>
+                            <p>Hannay Electric Website</p>
                         </div>
                     </div>
                 </div>

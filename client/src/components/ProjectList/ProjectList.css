@@ -1,5 +1,8 @@
-.portfolioPanel {
-    
+.individualProject {
+    width: 75%;
+    height: 300px;
+    position: relative;
+    margin: auto;
 }
 
 .imageBox {

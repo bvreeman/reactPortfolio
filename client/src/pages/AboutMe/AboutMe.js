@@ -16,7 +16,7 @@ class AboutMe extends React.PureComponent {
                     <ConnectWithMe />
                     <ProjectsContactButtons />
                 </div>
-\        </div>
+            </div>
         )
     }
 }

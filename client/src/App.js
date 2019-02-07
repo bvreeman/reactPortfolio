@@ -8,19 +8,19 @@ import ContactUsPage from './pages/ContactUsPage'
 import AboutMe from './pages/AboutMe'
 import MyProjects from './pages/MyProjects'
 
+
+
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="App">
           <HeaderNav />
-          <div className='background'>
             <Switch>
               <Route exact path='/' component={AboutMe}/>
               <Route exact path='/MyProjects' component={MyProjects}/>
               <Route exact path='/ContactUsPage' component={ContactUsPage}/>
             </Switch>
-          </div>
         </div>
       </BrowserRouter>
     );
