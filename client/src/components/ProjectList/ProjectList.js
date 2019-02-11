@@ -27,7 +27,7 @@ class ProjectList extends React.PureComponent {
                     <div className="row">
                         <div className="col-md-6 col-xs-12 imageBox">
                             <div className='individualProject'>
-                                <a href="https://immense-ravine-66672.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://ny-times-1123.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                     <img className="img-responsive text-center" src={nyTimes} alt="New York Times React Article Search" />
                                 </a>
                                 <div className="caption">
