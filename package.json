@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "1.0.0",
   "engines": {
-    "node": "8.11.1"
+    "node": "10.16.0"
   },
   "private": true,
   "description": "Brandon Vreeman's React Portfolio showing projects he has worked on",
