@@ -1,12 +1,12 @@
 {
   "name": "reactportfolio",
   "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
   "engines": {
     "node": "10.16.0"
   },
-  "private": true,
   "description": "Brandon Vreeman's React Portfolio showing projects he has worked on",
-  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "client": "node scripts/start-client.js",
@@ -15,7 +15,7 @@
     "seed": "node scripts/seedDB.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "installDeps": "yarn && cd client && yarn",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
