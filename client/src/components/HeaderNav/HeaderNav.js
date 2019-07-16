@@ -14,6 +14,7 @@ const HeaderNav = () => {
                 <NavLink to="/MyProjects" className="navbar-brand">My Projects</NavLink>
                 <NavLink to='/ContactUsPage' className="navbar-brand">Contact Me</NavLink>
                 <a className="navbarRight socialItems fab fa-facebook-f fa-3x" rel="noopener noreferrer" href="https://www.facebook.com/bvreeman/" target="_blank" style={{color: '#ffffff'}}><i className="fa fa-facebook white-text mr-lg-4"></i></a>
+                <a className="navbarRight socialItems fab fa-linkedin-in fa-3x" rel="noopener noreferrer" href="https://www.linkedin.com/in/brandon-vreeman/" target="_blank" style={{color: '#ffffff'}}><i className="fa fa-linkedin-square white-text mr-lg-4"></i></a>
             </nav>
         </div>
     )
